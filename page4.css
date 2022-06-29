@@ -1,0 +1,682 @@
+body{
+    overflow-x: hidden;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #2C3586;
+}
+.prishtina{
+    position: relative;
+    bottom: 65px;
+    left: 75px;
+    color: white;
+    z-index: 1;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    left: 9px;
+
+}
+.al{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    bottom: 145px;
+    color: white;
+    z-index: 1;
+}
+.home{
+    color: white;
+    position: relative;
+    right: 130px;
+    bottom: 5px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.arrivals{
+    color: white;
+    position: relative;
+    right: 80px;
+    top: 4px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.location{
+    color: white;
+    position: relative;
+    bottom: 5px;
+    right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.partners{
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+.passenger{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 65px;
+    bottom: 4px;
+}
+.about{
+    color: white;
+    position: relative;
+    left: 110px;
+    bottom: 5px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.dropdown div a{
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 6px;
+}
+.dropdown div{
+    display: none;
+    position:absolute;
+    left: 850px;
+    top: 70px;
+    background-color: #2C3586;
+    animation: mymove 8s;
+
+}
+.dropdown:hover div{
+    display: block;
+}
+.border{
+    width: 50%;
+    height: 1200px;
+    border: 1px solid grey;
+    position: relative;
+    top: 30px;
+    left: 70px;
+    border-radius: 10px;
+    background-color: white;
+}
+.details{
+    font-size: 28px;
+    position: relative;
+    left: 330px;
+    bottom: 10px;
+    z-index: 1;
+}
+.desk{
+    position: relative;
+    left: 335px;
+    font-size: 24px;
+}
+.phone{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 260px;
+}
+.office{
+    font-size: 22px;
+    position: relative;
+    left: 289px;
+    bottom: 53px;
+}
+.number{
+    font-size: 22px;
+    position: relative;
+    left: 355px;
+    bottom: 101px;
+
+}
+.mail{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 260px;
+    bottom: 102px;
+}
+.email{
+    font-size: 22px;
+    position: relative;
+    left: 290px;
+    bottom: 157px;
+}
+.lost{
+    font-size: 24px;
+    position: relative;
+    left: 340px;
+    bottom: 50px;
+}
+.phone2{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 263px;
+    bottom: 48px;
+}
+.office2{
+    font-size: 22px;
+    position: relative;
+    left: 292px;
+    bottom: 102px;
+}
+.number2{
+    font-size: 22px;
+    position: relative;
+    left: 357px;
+    bottom: 150px;
+}
+.mail2{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 257px;
+    bottom: 202px;
+}
+.phone3{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 264px;
+    bottom: 148px;
+}
+.office3{
+    font-size: 22px;
+    position: relative;
+    left: 291px;
+    bottom: 201px;
+}
+.email2{
+    font-size: 22px;
+    position: relative;
+    bottom: 257px;
+    left: 290px;
+}
+.public{
+    font-size: 24px;
+    position: relative;
+    left: 335px;
+    bottom: 160px;
+}
+.phone4{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 263px;
+    bottom: 153px;
+}
+.office4{
+  font-size: 22px;
+  position: relative;
+  left: 290px;
+  bottom: 205px;
+}
+.mail3{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 280px;
+    bottom: 206px;
+}
+.mail4{
+    font-size: 22px;
+    position: relative;
+    bottom: 263px;
+    left: 312px;
+}
+.adress{
+    font-size: 24px;
+    position: relative;
+    left: 365px;
+    bottom: 150px;
+}
+.adem{
+    font-size: 22px;
+    position: relative;
+    left: 220px;
+    bottom: 150px;
+}
+.limak{
+    font-size: 22px;
+    position: relative;
+    left: 255px;
+    bottom: 150px;
+}
+.vrelle{
+    font-size: 22px;
+    position: relative;
+    left: 345px;
+    bottom: 150px;
+}
+.republic{
+    font-size: 22px;
+    position: relative;
+    left: 315px;
+    bottom: 150px;
+}
+.grey{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    bottom: 1128px;
+    border-radius: 8px;
+    border-bottom: 1px solid grey;
+}
+.container{
+    position: absolute;
+    left: 990px;
+    bottom: 60px;
+    width: 50%;
+}
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.field{
+    width: 600px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 26px;
+    position: relative;
+    left: 90px;
+    outline: none;
+    border-radius: 5px;
+}
+h2{
+    font-size: 26px;
+    position: relative;
+    right: 40px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: blue;
+    border: blue;
+    position: relative;
+    left: 360px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    font-size: 24px;
+}
+.home:hover{
+    font-size: 25px;
+}
+.arrivals:hover{
+    font-size: 25px;
+}
+.location:hover{
+    font-size: 25px;
+}
+.partners:hover{
+    font-size: 25px;
+}
+.passenger:hover{
+    font-size: 25px;
+}
+.about:hover{
+    font-size: 25px;
+}
+.end{
+    background-color: black;
+    width: 1900px;
+    height: 100px;
+   position: relative;
+   top: 800px;
+   right: 1000px;
+   
+   
+
+}
+.copyright{
+    color: grey;
+    font-size: 24px;
+    position: relative;
+    left: 650px;
+    top: 36px;
+    
+}
+.en{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 910px;
+    bottom: 15px;
+}
+@media (max-width:650px) {
+    nav{
+        width: 620px;
+        height: 80px;
+    }
+    .prishtina{
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+  left: 36px;
+}
+  .logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    left: 4px;
+  }
+     
+  .home{
+    font-size: 15px;
+    position: relative;
+    top: 74px;
+    right: 5px;
+  }
+  .arrivals{
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    left: 23px;
+  }
+  .location{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 43px;
+  }
+  .partners{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 68px;
+  }
+  .passenger{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 95px;
+  }
+  .about{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 120px;
+  }
+  .dropdown div{
+    position: absolute;
+    left: 333px;
+    top: 120px;
+}
+.dropdown div a{
+    font-size: 15px;
+}
+.home:hover{
+    font-size: 16px;
+  }
+  .arrivals:hover{
+    font-size: 15px;
+  }
+  .location:hover{
+    font-size: 14px;
+  }
+  .partners:hover{
+    font-size: 15px;
+  }
+  .passenger:hover{
+    font-size: 15px;
+  }
+  .about:hover{
+    font-size: 15px;
+  }
+  .border{
+    width: 580px;
+    height: 800px;
+    position: relative;
+    left: 20px;
+  }
+  .details{
+    font-size: 19px;
+    position: relative;
+    left: 220px;
+    
+    bottom: 3px;
+  }
+  .grey{
+    height: 53px;
+    position: absolute;
+    bottom: 1146px;
+  }
+  .desk{
+    font-size: 18px;
+    position: relative;
+    left: 219px;
+    top: 10px;
+  }
+  .phone{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 162px;
+    top: 20px;
+  }
+  .office{
+    font-size: 18px;
+    position: relative;
+    left: 183px;
+    bottom: 21px;
+  }
+  .number{
+    font-size: 18px;
+    position: relative;
+    left: 236px;
+    bottom: 60px;
+  }
+  .mail{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    bottom: 65px;
+    left: 158px;
+  }
+  .email{
+    font-size: 18px;
+    position: relative;
+    bottom: 111px;
+    left: 187px;
+}
+.lost{
+    font-size: 19px;
+    position: relative;
+    left: 225px;
+
+    bottom: 70px;
+}
+.phone2{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 162px;
+    bottom: 70px;
+}
+.office2{
+    font-size: 18px;
+    position: relative;
+    left: 183px;
+    bottom: 111px;
+}
+.number2{
+    font-size: 18px;
+    position: relative;
+    left: 236px;
+}
+.phone3{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 162px;
+    bottom: 150px;
+}
+.office3{
+    font-size: 18px;
+    position: relative;
+    left: 183px;
+    bottom: 190px;
+}
+.mail2{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: 158px;
+    bottom: 195px;
+}
+.email2{
+    font-size: 18px;
+    position: relative;
+    left: 187px;
+    bottom: 241px;
+}
+.public{
+    font-size: 19px;
+    left: 225px;
+    bottom: 205px;
+
+}
+.phone4{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 163px;
+    bottom: 205px;
+}
+.office4{
+    font-size: 18px;
+    position: relative;
+    left: 183px;
+    bottom: 245px;
+}
+.mail3{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: 177px;
+    bottom: 250px;
+}
+.mail4{
+    font-size: 18px;
+    position: relative;
+    left: 205px;
+    bottom: 297px;
+}
+.adress{
+    font-size: 20px;
+    position: relative;
+    left: 255px;
+    bottom: 255px;
+}
+.adem{
+    font-size: 18px;
+    position: relative;
+    left: 129px;
+    bottom: 250px;
+}
+.limak{
+    font-size: 18px;
+    position: relative;
+    left: 155px;
+    bottom: 250px;
+}
+.vrelle{
+    font-size: 18px;
+    position: relative;
+    left: 235px;
+    bottom: 250px;
+}
+.republic{
+    font-size: 18px;
+    position: relative;
+    left: 213px;
+    bottom: 250px;
+}
+.container{
+    position: absolute;
+    left: 25px;
+    top: 1000px;
+    width: 400px;
+    height: 200px;
+    
+}
+.contact-box{
+    max-width: 580px;
+}
+.field{
+    width: 550px;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 90px;
+    outline: none;
+    border-radius: 5px;
+}
+.con{
+    font-size: 22px;
+    position: relative;
+    left: 90px;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    font-size: 19px;
+    border-radius: 8px;
+    position: relative;
+    left: 340px;
+}
+.end{
+    background-color: black;
+    width: 650px;
+    height: 60px;
+   position: relative;
+   top: 110px;
+   right: 40px;
+   
+
+}
+.copyright{
+    color: grey;
+    font-size: 16px;
+    position: relative;
+    left: 180px;
+    top: 21px;
+    
+}
+.en{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: 350px;
+    bottom: 15px;
+}
+}

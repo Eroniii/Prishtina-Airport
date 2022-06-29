@@ -1,0 +1,938 @@
+
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #2C3586;
+}
+.prishtina{
+    position: relative;
+    bottom: 65px;
+    left: 75px;
+    color: white;
+    z-index: 1;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    left: 9px;
+
+}
+.al{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    bottom: 145px;
+    color: white;
+    z-index: 1;
+}
+.home{
+    color: white;
+    position: relative;
+    right: 130px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.arrivals{
+    color: white;
+    position: relative;
+    right: 80px;
+    top: 8px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.location{
+    color: white;
+    position: relative;
+    right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.partners{
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+.about{
+    color: white;
+    position: relative;
+    left: 110px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.passenger{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    left: 65px;
+}
+.background{
+    width: 100%;
+    height: 810px;
+    position: relative;
+    
+    opacity: 0.9;
+}
+.explore{
+    z-index: 1;
+    position: relative;
+    bottom: 600px;
+    left: 50px;
+    font-size: 37px;
+    line-height: 60px;
+    
+}
+.fly{
+    position: relative;
+    bottom: 360px;
+    left: 60px;
+    z-index: 1;
+
+}
+.outside{
+    width: 450px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.night{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.stairs{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.chairs{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.name{
+    width: 100%;
+    height: 160px;
+    background-color:#2C3586 ;
+    position: relative;
+    bottom: 260px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    
+}
+.empty{
+    width: 450px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.adem{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.taxi{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.people{
+    width: 440px;
+    height: 380px;
+    position: relative;
+    bottom: 340px;
+}
+.are{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    bottom: 370px;
+}
+.plan{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    bottom: 340px;
+}
+.plane{
+    width: 887px;
+    height: 500px;
+    position: relative;
+    bottom: 340px;
+}
+.small{
+    width: 100%;
+    height: 140px;
+    background-color: #F65314;
+    position: relative;
+    bottom: 250px;
+}
+.djathta{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.register{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    position: relative;
+    bottom: 80px;
+    right: 40px;
+}
+.in{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    position: relative;
+    bottom:68px;
+    right: 40px;
+}
+.phone{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 57px;
+    right: 47px;
+    font-size: 24px;
+
+}
+.prish{
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+.car{
+    position: relative;
+    left: 320px;
+    top: 5px;
+    font-size: 18px;
+}
+.epara{
+    width: 430px;
+    height: 5px;
+    background-color: black;
+    position:relative;
+    bottom: 300px;
+}
+.edyta{
+    width: 100%;
+    height: 600px;
+    background-color: #F65314 ;
+    position: relative;
+    bottom: 278px;
+}
+.first{
+    width: 1750px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    
+}
+.pick{
+    font-size: 25px;
+    position: relative;
+    left: 750px;
+    top: 20px;
+}
+
+.second{
+    width: 1750px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.date{
+    font-size: 25px;
+     position: relative;
+     top: 50px;
+     left: 750px;
+}
+.third{
+    width: 1750px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.off{
+    font-size: 25px;
+    position: relative;
+    left: 750px;
+    top: 70px;
+}
+.search{
+    border: 1px solid black;
+    position: relative;
+    top: 90px;
+    left: 770px;
+    font-size: 32px;
+    width: 140px;
+    border-radius: 8px;
+}
+.searc{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    position: relative;
+    left: 23px;
+    
+}
+.brand{
+    position: relative;
+    left: 500px;
+    bottom: 260px;
+    color: #F65314;
+    
+}
+
+
+.a3{
+    width: 550px;
+    height: 430px;
+    position: relative;
+    left: 30px;
+    bottom: 237px;
+}
+.audi{
+    position: relative;
+    left: 230px;
+    bottom: 236px;
+}
+.ofert{
+    font-size: 24px;
+    position: relative;
+    left: 180px;
+    bottom: 250px;
+    color: grey;
+}
+.polo{
+    width: 550px;
+    height: 430px;
+    position: relative;
+    bottom: 808px;
+    left: 620px;
+}
+.pol{
+    font-size: 32px;
+    position: relative;
+    left: 775px;
+    bottom: 806px;
+}
+.ofer{
+    font-size: 24px;
+    position: relative;
+    left: 780px;
+    bottom:820px;
+    color: grey;
+    
+}
+.ford{
+    width: 550px;
+    height:430px;
+    position: relative;
+    bottom: 1376px;
+    right: 27px;
+    float: right;
+}
+.fiesta{
+    position: relative;
+    bottom: 939px;
+    left: 320px;
+    float: right;
+}
+.javore{
+    position: relative;
+    float: right;
+    bottom: 896px;
+    left: 503px;
+    color: grey;
+    font-size: 24px;
+}
+.end{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+   position: relative;
+   top: 280px;
+   
+
+}
+.copyright{
+    color: grey;
+    font-size: 24px;
+    position: relative;
+    left: 650px;
+    top: 52px;
+    
+}
+.en{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 910px;
+
+}
+.home:hover{
+    font-size: 25px;
+}
+.about:hover{
+    font-size: 25px;
+}
+.location:hover{
+    font-size: 25px;
+}
+.partners:hover{
+    font-size: 25px;
+}
+.arrivals:hover{
+    font-size: 25px;
+}
+.passenger:hover{
+    font-size: 25px;
+}
+.epesta{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    bottom: 700px;
+}
+.covid{
+    color: white;
+    position: relative;
+    left: 660px;
+    top: 30px;
+}
+.egjashta{
+    width: 98%;
+    height: 4px;
+    
+    background-color: grey;
+    position: relative;
+    left: 10px;
+    bottom: 590px;
+}
+.travel{
+    font-size: 26px;
+    position: relative;
+    bottom: 720px;
+    left: 250px;
+    font-weight: bold;    
+}
+.mask{
+    color: black;
+    font-size: 27px;
+    position: relative;
+    bottom: 1040px;
+    left: 40px;
+    line-height: 46px;
+}
+.face{
+    color: black;
+    position: relative;
+    bottom: 1030px;
+    left: 210px;
+    font-size: 32px;
+}
+.entry{
+    position: relative;
+    bottom: 1900px;
+    left: 1150px;
+}
+.june{
+    position: relative;
+    left: 1080px;
+    bottom: 1900px;
+    font-size: 24px;
+    line-height: 46px;
+
+}
+.searc:hover{
+    color: white;
+    font-size: 34px;
+}
+.register:hover{
+    color: white;
+    font-size: 28px;
+}
+.in:hover{
+    color: white;
+    font-size: 28px;
+}
+.phone:hover{
+    color: white;
+    font-size: 28px;
+}
+.dropdown div a{
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 6px;
+}
+.dropdown div{
+    display: none;
+    position:absolute;
+    left: 845px;
+    top: 70px;
+    background-color: #2C3586;
+
+}
+.dropdown:hover div{
+    display: block;
+}
+
+@media (max-width:650px) {
+    nav{
+        width: 620px;
+        height: 80px;
+    }
+    .prishtina{
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+  left: 36px;
+}
+  .logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    left: 4px;
+  }
+     
+  .home{
+    font-size: 15px;
+    position: relative;
+    top: 74px;
+    right: 5px;
+  }
+  .arrivals{
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    left: 23px;
+  }
+  .location{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 43px;
+  }
+  .partners{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 68px;
+  }
+  .passenger{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 95px;
+  }
+  .about{
+    font-size: 14px;
+    position: relative;
+    top: 74px;
+    left: 120px;
+  }
+  .background{
+    width: 620px;
+    height: 430px;
+  }
+.explore{
+    font-size: 17px;
+    position: relative;
+     bottom: 400px;
+     left: 0px;
+     left: 30px;
+     line-height: 30px;
+}
+.fly{
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+    left: 30px;
+    bottom: 200px;
+}
+.name{
+    width: 620px;
+    height: 80px;
+    position: relative;
+     bottom: 170px;
+}
+.outside{
+    position: relative;
+    bottom: 220px;
+    width: 305px;
+    height: 250px;
+}
+.gallery{
+    font-size: 20px;
+}
+.are{
+    position: relative;
+    bottom: 220px;
+    color: white;
+    font-size: 17px;
+}
+.night{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+    left: 5px;
+}
+.stairs{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+}
+.chairs{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+    left: 5px;
+}
+.empty{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+}
+.adem{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+    left: 5px;
+}
+.taxi{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+}
+.people{
+    width: 305px;
+    height: 250px;
+    position: relative;
+    bottom: 220px;
+    left: 5px;
+}
+.small{
+    width: 620px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+}
+.epara{
+    width: 255px;
+    position: relative;
+    bottom: 240px;
+}
+.edyta{
+    width: 650px;
+    height: 500px;
+    position: relative;
+    bottom: 220px;
+}
+.prish{
+    font-size: 22px;
+    position: relative;
+    left: 130px;
+    top: 15px;
+}
+.car{
+    font-size: 16px;
+    position: relative;
+    left: 160px;
+    top: 0px;
+}
+.register{
+    font-size: 19px;
+    position: relative;
+    bottom: 65px;
+}
+.in{
+    font-size: 19px;
+    position: relative;
+    bottom: 60px;
+}
+.phone{
+    font-size: 19px;
+    position: relative;
+    bottom: 55px;
+}
+.pick{
+    position: relative;
+    left: 230px;
+    top: 10px;
+    font-size: 19px;
+}
+.first{
+    width: 595px;
+    height: 50px;
+}
+.second{
+    width: 595px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+}
+.third{
+    width: 595px;
+    height: 50px;
+    position: relative;
+    top:10px;
+}
+.search{
+    position: relative;
+    left: 260px;
+    top: 70px;
+    width: 80px;
+    height: 30px;
+    font-size: 23px;
+}
+.searc{
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.date{
+   position: relative;
+   left: 230px;    
+   top: 5px;
+   font-size: 20px;
+}
+.off{
+    position: relative;
+    left: 230px;
+    top: 15px;
+    font-size: 20px;
+}
+.brand{
+    font-size: 21px;
+    left: 70px;
+    bottom: 210px;
+}
+.a3{
+    position: relative;
+    bottom: 210px;
+    left: 55px;
+    width: 500px;
+    height: 400px;
+}
+.audi{
+    font-size: 23px;
+    left: 260px;
+    bottom: 220px;
+}
+.ofert{
+    position: relative;
+    left: 210px;
+    bottom: 240px;
+    font-size: 20px;
+}
+.polo{
+    position: relative;
+    width:500px;
+    height: 400;
+    bottom: 240px;
+    left: 55px;
+}
+.pol{
+    font-size: 23px;
+    position: relative;
+    left: 220px;
+    bottom: 250px;
+}
+.ofer{
+    position: relative;
+    left: 205px;
+    bottom: 265px;
+    font-size: 20px;
+}
+.ford{
+    position: relative;
+    bottom: 270px;
+    right: 60px;
+    width: 500px;
+    height: 400px;
+}
+.fiesta{
+    position: relative;
+    left: 240px;
+    bottom: 0px;
+    top: 120px;
+    float: left;
+    right: 70px;
+    font-size: 23px;
+}
+.javore{
+    position: relative;
+    left: 210px;
+    bottom: 260px;
+    float: left;
+    font-size: 20px;
+}
+.epesta{
+    width: 620px;
+    height: 70px;
+    position: relative;
+    bottom:0px;
+    top: 200px;
+}
+.covid{
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 175px;
+    bottom: 40px;
+    font-size: 20px;
+
+}
+.egjashta{
+    width: 600px;
+    height: 2px;
+    position: relative;
+    bottom: 0px;
+    top: 300px;
+    
+}
+.travel{
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+    top:3840px;
+}
+.face{
+    position: absolute;
+    bottom: 830px;
+    left: 250px;
+    font-size: 21px;
+}
+.mask{
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 480px;
+    
+    left: 130px;
+}
+.end{
+    position: absolute;
+    top: 4800px;
+   
+    height: 60px;
+
+
+    background-color: black;
+}
+.entry{
+    position: absolute;
+    left: 190px;
+    bottom: 420px;
+
+    font-size: 21px;
+}
+.june{
+    position: absolute;
+    left: 120px;
+    bottom: 110px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.copyright{
+    
+    position: relative;
+    left: 140px;
+    top: 4px;
+    font-size: 16px;
+}
+.en{
+    position: relative;
+    left: 320px;
+    bottom: 35px;
+    font-size: 18px;
+    
+}
+.home:hover{
+    font-size: 15px;
+}
+.arrivals:hover{
+    font-size: 15px;
+}
+.location:hover{
+    font-size: 15px;
+}
+.partners:hover{
+    font-size: 15px;
+}
+.passenger:hover{
+    font-size: 15px;
+}
+.about:hover{
+    font-size: 15px;
+}
+.searc:hover{
+    color: white;
+    font-size: 23px;
+}
+.register:hover{
+    color: white;
+    font-size: 19px;
+}
+.in:hover{
+    color: white;
+    font-size: 19px;
+}
+.phone:hover{
+    color: white;
+    font-size: 19px;
+}
+.dropdown div{
+    position: absolute;
+    left: 333px;
+    top: 120px;
+}
+.dropdown div a{
+    font-size: 15px;
+}
+    }
